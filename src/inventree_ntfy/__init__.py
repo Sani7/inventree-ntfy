@@ -2,4 +2,4 @@
 
 from .NtfyPlugin import NtfyPlugin
 
-__all__ = [NtfyPlugin, ]
+__all__ = [NtfyPlugin]
