@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel", "pyyaml"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "inventree-ntfy"
+name = "inventree-Ntfy"
 version =  "1.0"
 description=" Send notifications from InvenTree via Ntfy "
 readme = "README.md"
@@ -23,7 +23,7 @@ classifiers=[
     "Intended Audience :: End Users/Desktop",
     "Topic :: Scientific/Engineering",
 ]
-requires-python=">=3.9"
+requires-python=">=3.11"
 dependencies = ['django']
 
 [project.optional-dependencies]
@@ -31,7 +31,7 @@ dev = ['twine', 'setuptools']
 
 [project.urls]
 repository = "https://github.com/sani7/inventree-ntfy"
-"Bug Tracker" = "https://github.com/sani/inventree-ntfy/issues"
+"Bug Tracker" = "https://github.com/sani7/inventree-ntfy/issues"
 
 [project.entry-points."inventree_plugins"]
 inventree-ntfy = "inventree_ntfy:NtfyPlugin"
