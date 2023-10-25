@@ -10,4 +10,6 @@ on:
 jobs:
   plugin-action:
     uses: matmair/inventree-meta-plugin/.github/workflows/plugin_action.yaml@main
-    secrets: inherit
+    secrets:
+      PYPI_API_TOKEN: ${{ secrets.PYPI_API_TOKEN }}
+
