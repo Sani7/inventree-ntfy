@@ -58,10 +58,11 @@ class NtfyPlugin(SettingsMixin, InvenTreePlugin):
             ret = True
             for notifiy_url in url.split(';'):
                 r = requests.post(notifiy_url,
-                data=str(self.context['message']),
-                headers={
-                    "Title": str(self.context['name']),
-                })
+                                  data=str(self.context['message']),
+                                  headers={
+                                      "Title": str(self.context['name']),
+                                  })
+                
                 if (r.status_code != 200):
                     ret = False
 
