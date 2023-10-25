@@ -30,11 +30,11 @@ dependencies = ['django']
 dev = ['twine', 'setuptools']
 
 [project.urls]
-repository = "https://github.com/matmair/inventree-apprise"
-"Bug Tracker" = "https://github.com/matmair/inventree-apprise/issues"
+repository = "https://github.com/sani7/inventree-ntfy"
+"Bug Tracker" = "https://github.com/sani/inventree-ntfy/issues"
 
 [project.entry-points."inventree_plugins"]
-inventree-apprise = "inventree_apprise:ApprisePlugin"
+inventree-ntfy = "inventree_ntfy:NtfyPlugin"
 
 [tool.setuptools.packages.find]
 where = ["src"]
