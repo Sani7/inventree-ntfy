@@ -3,14 +3,14 @@ requires = ["setuptools", "wheel", "pyyaml"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "inventree-apprise"
+name = "inventree-ntfy"
 version =  "1.0"
-description=" Send notifications from InvenTree via Apprise "
+description=" Send notifications from InvenTree via Ntfy "
 readme = "README.md"
 license = {text = "MIT"}
-keywords = ["inventree", "inventree-plugin", "apprise"]
+keywords = ["inventree", "inventree-plugin", "ntfy"]
 authors = [
-    {name = "Matthias J Mair", email =  "info@mjmair.com"}
+    {name = "Sander Speetjens", email =  "sander.speetjens@gmail.com"}
 ]
 classifiers=[
     "Programming Language :: Python :: 3",
@@ -24,7 +24,7 @@ classifiers=[
     "Topic :: Scientific/Engineering",
 ]
 requires-python=">=3.9"
-dependencies = ['django', 'apprise']
+dependencies = ['django']
 
 [project.optional-dependencies]
 dev = ['twine', 'setuptools']
